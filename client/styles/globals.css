@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-main {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/fotobianconero.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.classCard1 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/bauletti-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: classCard1;
+  position: relative;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  transition: ease-in-out 0.4s;
+  width: 300px;
+  height: 350px;
+}
+
+.classCard1:hover {
+  width: 250px;
+  height: 300px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard1 {
+  0% {
+    opacity: 0.5;
+
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+.classCard2 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/Complementi-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  animation-name: classCard2;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  transition: ease-in-out 0.4s;
+  width: 300px;
+  height: 300px;
+}
+
+.classCard2:hover {
+  width: 250px;
+  height: 300px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard2 {
+  0% {
+    opacity: 0.5;
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+.classCard3 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/abbraccio.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  animation-name: classCard3;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  width: 300px;
+  height: 300px;
+  transition: ease-in-out 0.4s;
+}
+
+.classCard3:hover {
+  width: 250px;
+  height: 300px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard3 {
+  0% {
+    opacity: 0.5;
+
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+.classCard4 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/cubotti-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  animation-name: classCard4;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  width: 300px;
+  height: 199px;
+  transition: ease-in-out 0.4s;
+}
+
+.classCard4:hover {
+  width: 250px;
+  height: 170px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard4 {
+  0% {
+    opacity: 0.5;
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+.classCard5 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/fette_incise-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  animation-name: classCard5;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  width: 300px;
+  height: 315px;
+  transition: ease-in-out 0.4s;
+}
+
+.classCard5:hover {
+  width: 250px;
+  height: 300px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard5 {
+  0% {
+    opacity: 0.5;
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+.classCard6 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/lampada_furgone.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  animation-name: classCard6;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  width: 300px;
+  height: 195px;
+  transition: ease-in-out 0.4s;
+}
+
+.classCard6:hover {
+  width: 250px;
+  height: 170px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard6 {
+  0% {
+    opacity: 0.5;
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+.classCard7 {
+  background-image: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/Piantane-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation-name: classCard7;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  width: 300px;
+  height: 360px;
+  transition: ease-in-out 0.4s;
+}
+
+.classCard7:hover {
+  width: 250px;
+  height: 260px;
+  filter: saturate(180%);
+  transition: ease-in-out 0.4s;
+}
+
+@keyframes classCard7 {
+  0% {
+    opacity: 0.5;
+    left: -200px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+.bg-racc-me {
+  background: url(https://ecommerce-juri.s3.eu-west-3.amazonaws.com/static/sfondo_descrizione.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-width: 200px;
+  max-width: 300px;
+  min-height: 200px;
+  max-height: 350px;
+}
+
+.input {
+  width: 150px;
+  transition: width 0.4s linear;
+}
+
+.input:focus {
+  width: 230px;
+  transition: width 0.4s linear;
+}
