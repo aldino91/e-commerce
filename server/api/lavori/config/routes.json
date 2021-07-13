@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lavoris",
+      "handler": "lavori.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lavoris/count",
+      "handler": "lavori.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lavoris/:id",
+      "handler": "lavori.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lavoris",
+      "handler": "lavori.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lavoris/:id",
+      "handler": "lavori.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lavoris/:id",
+      "handler": "lavori.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

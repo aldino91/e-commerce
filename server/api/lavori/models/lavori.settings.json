@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lavoris",
+  "info": {
+    "name": "lavori",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "platform": {
+      "model": "platform"
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "poster": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
